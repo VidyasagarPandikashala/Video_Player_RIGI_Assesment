@@ -27,7 +27,7 @@ It is similar to the home page but have additional function of redordering the l
 - **Upload feature** : It allows you to upload the video file to the application and play it
 - **Video Player**: In house video player is used.
 - **Data storage**: The data recieved in the application is through the upload option and stored in the redux state.
-  Redux state is designed like a database with id as key with repective data.[kindly refer the appslice folder inside (src --> redux --> applicationslice --> appslice.js) for the state design ]
+  Redux state is designed like a database with id as key with repective data.[kindly refer the appslice folder inside (src --> redux --> applicationslice --> appslice.js) for the state design.
 
 - **ReduxStore configuration**:
   There are two configuration available for the data Store
@@ -70,15 +70,13 @@ cd vplayer-frontend
 
 ---
 
-##Install dependencies
+## Install dependencies
 
 ```bash
 npm install
 ```
 
-## Install dependencies
-
-##Run application
+## Run application
 
 ```bash
 npm start
