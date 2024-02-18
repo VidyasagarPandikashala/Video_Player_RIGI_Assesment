@@ -32,10 +32,11 @@ It is similar to the home page but have additional function of redordering the l
 - **ReduxStore configuration**:
   There are two configuration available for the data Store
 
-      1. **Data not perisiting while refresh(default)**: The normal datastore that do not persist data on the current session when refreshed or restarted the application.
+1. **Data not perisiting while refresh(default)**: The normal datastore that do not persist data on the current session when refreshed or restarted the application.
 
-      2.**Data persisting** : In the data is stored in the indexed db of the redux toolkit where the data persists unless the in-build database (IndexDb) in the browser is deleted.
-      **Note : In order to activate this feature you must **uncomment** the code for the persist library of redux (path:src --> redux --> store --> store,js). and must destructure the state in the index.js file since both store and persistor is exported from store,js**
+2.**Data persisting** : In the data is stored in the indexed db of the redux toolkit where the data persists unless the in-build database (IndexDb) in the browser is deleted.
+
+**Note : In order to activate this feature you must **uncomment** the code for the persist library of redux (path:src --> redux --> store --> store,js). and must destructure the state in the index.js file since both store and persistor is exported from store,js**
 
   <br/>
 
@@ -44,6 +45,8 @@ It is similar to the home page but have additional function of redordering the l
 - **Search Option** : added the facility to search for the particular video in all videos list (homepage).
 
 - **Playlist Reorder** : You can reorder the videos in the playlist according to the preference.
+
+---
 
 ## Prerequisites
 
@@ -61,7 +64,7 @@ Follow these steps to install the Application:
 **Clone the repository**
 
 ```bash
-git clone https://github.com/yourrepository/application-name.git
+git clone https://github.com/VidyasagarPandikashala/Video_Player_RIGI_Assesment.git
 cd vplayer-frontend
 ```
 
@@ -71,6 +74,14 @@ cd vplayer-frontend
 
 ```bash
 npm install
+```
+
+## Install dependencies
+
+##Run application
+
+```bash
+npm start
 ```
 
 **Note : for persisting data even after refresh in the browser kindly check the instruction mentioned in redux store configuration under Features**
