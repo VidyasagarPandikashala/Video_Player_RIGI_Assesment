@@ -1,0 +1,8 @@
+.buttonStyle {
+  color: var(--primary-background-color);
+  background-color: var(--primary-text-color);
+}
+.buttonStyle:hover {
+  color: var(--primary-text-color);
+  background-color: var(--primary-accent-color);
+}

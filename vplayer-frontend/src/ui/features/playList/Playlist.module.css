@@ -1,0 +1,34 @@
+.noPlaylistBackground {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+
+  justify-content: center;
+  gap: 2rem;
+  align-items: center;
+}
+
+.noPlaylist {
+  display: flex;
+  width: 480px;
+  height: 240px;
+  margin-top: 10%;
+  left: 40%;
+  border-radius: 16px;
+  background-color: var(--overlay-shade-200);
+  justify-content: center;
+  font-size: 2rem;
+  color: var(--primary-text-color);
+  align-items: center;
+}
+
+.linkStyle {
+  text-decoration: none;
+  color: var(--primary-text-color);
+}
+.linkStyle:hover {
+  text-decoration: none;
+  color: var(--primary-accent-color);
+}

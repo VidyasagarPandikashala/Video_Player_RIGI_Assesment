@@ -1,0 +1,26 @@
+.thumbnailcontainer {
+  display: flex;
+  background-color: var(--overlay-shade-200);
+  /* width: 71px; */
+  /* height: 64px; */
+  padding: 14px 25px;
+  justify-content: center;
+  border-radius: 0.5rem;
+  align-items: center;
+  cursor: pointer;
+}
+
+.iconStyle {
+  font-size: 12px;
+  color: var(--primary-accent-color);
+}
+
+.thumbContainerVideoPlayer {
+  display: flex;
+  flex: 5;
+  background-color: var(--background-color);
+  /* width: 100%; */
+  /* height: calc(100vh - 60px); */
+  justify-content: center;
+  align-items: center;
+}

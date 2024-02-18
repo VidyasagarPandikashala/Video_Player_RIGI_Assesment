@@ -1,0 +1,4 @@
+.videoPlayer {
+  flex: 5;
+  background-color: var(--background-color);
+}

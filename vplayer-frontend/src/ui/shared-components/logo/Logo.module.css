@@ -1,0 +1,18 @@
+.logoContainer {
+  display: flex;
+  margin-left: 2rem;
+}
+
+.logoHeadingiprimary {
+  color: var(--primary-accent-color);
+  font-size: 2rem;
+  padding: 0;
+  margin: 0;
+}
+
+.logoHeadingisecondary {
+  color: var(--primary-text-color);
+  font-size: 2rem;
+  padding: 0;
+  margin: 0;
+}

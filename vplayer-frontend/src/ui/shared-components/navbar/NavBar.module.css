@@ -1,0 +1,32 @@
+.navigationContainer {
+  display: flex;
+  margin: 0;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: solid 1px var(--overlay-shade-200);
+}
+.uList {
+  display: flex;
+  gap: 5rem;
+  align-items: center;
+  /* justify-content: flex-end; */
+  margin-right: 2rem;
+  list-style: none;
+  color: var(--primary-text-color);
+  font-size: 1rem;
+  font-weight: bold;
+}
+.navDefaultPage {
+  color: var(--primary-accent-color);
+}
+
+.nav_link {
+  text-decoration: none;
+  color: var(--primary-text-color);
+}
+
+.active_link {
+  text-decoration: none;
+  color: var(--primary-accent-color);
+}

@@ -1,0 +1,38 @@
+.eachVideoListWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.eachVideoContainer {
+  display: flex;
+  flex: 3;
+  gap: 5rem;
+  padding: 2rem;
+  /* justify-content: space-between; */
+  align-items: center;
+}
+
+.eachVideoListWrapper:hover {
+  background-color: var(--overlay-shade-100);
+}
+
+.movieName {
+  /* padding: 24px 0px; */
+  /* margin: 0; */
+  color: var(--primary-accent-color);
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.5ch;
+}
+
+.addToPlaylistContainer {
+  flex: 1;
+}
+
+.addToPlaylist {
+  padding: 0;
+  margin: 0;
+  color: var(--primary-text-color);
+  font-size: 1rem;
+}

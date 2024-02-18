@@ -1,0 +1,12 @@
+.search_bar {
+  width: 280px;
+  border: 1px solid var(--primary-text-color);
+
+  height: 32px;
+  padding-inline: 1rem;
+  font-size: 10px;
+  letter-spacing: 0.5ch;
+  color: var(--primary-accent-color);
+  margin-top: 1rem;
+  background-color: var(--overlay-shade-100);
+}

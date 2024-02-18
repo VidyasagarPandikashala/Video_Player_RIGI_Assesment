@@ -1,0 +1,11 @@
+.playlistStyle {
+  display: flex;
+  flex-direction: column;
+  width: 240px;
+  height: 240px;
+  background-color: var(--overlay-shade-100);
+  gap: 2rem;
+  align-items: center;
+  border-radius: 1rem;
+  justify-content: center;
+}
