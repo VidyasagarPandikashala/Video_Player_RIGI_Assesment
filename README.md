@@ -19,7 +19,7 @@ If you already have a playlist you can select the + icon to add it to the playli
 Lists out the playlist added and clicking on it redirects to playlist page.
 You can just create empty playlist if you want and then go to home page and add the videos
 
-**Playlist Listin Page:**
+**Playlist Listing Page:**
 It is similar to the home page but have additional function of redordering the list according to preference
 
 ## Features
